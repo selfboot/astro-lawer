@@ -13,7 +13,7 @@ const aboutCollection = defineCollection({
       title: z.string(),
       items: z.array(
         z.object({
-          title: z.string(),
+          client_name: z.string(),
           description: z.string(),
         }),
       ),

@@ -17,14 +17,14 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Mulish:wght@400;600;700",
+      "primary": "'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif",
       "primary_type": "sans-serif",
-      "secondary": "",
-      "secondary_type": ""
+      "secondary": "'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif CN', STSong, 'SimSun', serif",
+      "secondary_type": "serif"
     },
     "font_size": {
-      "base": "16",
-      "scale": "1.2"
+      "base": "18",
+      "scale": "1.1"
     }
   }
 }

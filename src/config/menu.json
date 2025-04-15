@@ -1,61 +1,34 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "首页",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "关于",
       "url": "/about"
     },
     {
-      "name": "Contact",
+      "name": "联系我",
       "url": "/contact"
     },
     {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
-        {
-          "name": "Categories",
-          "url": "/categories"
-        },
-        {
-          "name": "Tags",
-          "url": "/tags"
-        },
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Privacy Policy",
-          "url": "/privacy-policy"
-        }
-      ]
+      "name": "分类",
+      "url": "/categories"
+    },
+    {
+      "name": "标签",
+      "url": "/tags"
     }
   ],
   "footer": [
     {
-      "name": "About",
+      "name": "关于",
       "url": "/about"
     },
     {
-      "name": "Contact",
+      "name": "联系我",
       "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
     }
   ]
 }

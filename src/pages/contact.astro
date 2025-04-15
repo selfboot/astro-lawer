@@ -4,11 +4,11 @@ import Base from "@/layouts/Base.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
-import { FaAddressCard, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import { FaAddressCard, FaEnvelope, FaWeixin } from "react-icons/fa";
 
 const entry = (await getEntry("pages", "contact")) as CollectionEntry<"pages">;
 const { contact_form_action } = config.params;
-const { address, email, phone } = config.contactinfo;
+const { address, email, wechat } = config.contactinfo;
 const { title, description, meta_title, image } = entry.data;
 ---
 
@@ -21,78 +21,80 @@ const { title, description, meta_title, image } = entry.data;
   <section class="section">
     <div class="container">
       <h1 set:html={markdownify(title)} class="h2 page-heading" />
-      <div class="row md:gx-5 gy-5">
-        <div class="sm:col-5 md:col-4">
-          <p class="mb-8 text-2xl font-bold text-text-dark">Contact Info</p>
-          <ul class="flex flex-col space-y-8">
-            <li>
-              <div class="flex text-text-dark items-center text-xl">
+      
+      <!-- 联系方式部分 -->
+      <div class="mb-16">
+        <p class="mb-8 text-2xl font-bold text-text-dark">联系我</p>
+        <div class="flex flex-col md:flex-row gap-8">
+          <!-- 左侧联系信息 -->
+          <div class="flex-1">
+            <div class="mb-6">
+              <div class="flex text-text-dark items-center text-xl mb-3">
                 <FaAddressCard className="mr-3 text-primary" />
-                <p class="font-semibold">Address</p>
+                <p class="font-semibold">地址</p>
               </div>
-              <p set:html={markdownify(address)} class="mt-2 leading-5 pl-8" />
-            </li>
-            <li>
-              <div class="flex text-text-dark items-center text-xl">
+              <p set:html={markdownify(address)} class="leading-6 pl-8" />
+            </div>
+            
+            <div class="mb-6">
+              <div class="flex text-text-dark items-center text-xl mb-3">
                 <FaEnvelope className="mr-3 text-primary" />
-                <p class="font-semibold">Email</p>
+                <p class="font-semibold">邮件</p>
               </div>
-              <p
-                set:html={markdownify(email)}
-                class="mt-2 leading-5 pl-8 content"
+              <p set:html={markdownify(email)} class="leading-6 pl-8 content" />
+            </div>
+            
+            <div>
+              <div class="flex text-text-dark items-center text-xl mb-3">
+                <FaWeixin className="mr-3 text-primary" />
+                <p class="font-semibold">微信</p>
+              </div>
+              <p set:html={markdownify(wechat)} class="leading-6 pl-8" />
+            </div>
+          </div>
+          
+          <!-- 右侧微信二维码 -->
+          <div class="flex-none flex items-center justify-center">
+            <div class="text-center">
+              <img 
+                src="https://slefboot-1251736664.file.myqcloud.com/20230721_lawer_sheng_wx_small.png" 
+                alt="微信二维码" 
+                class="h-48 w-auto shadow-md rounded-md" 
               />
-            </li>
-            <li>
-              <div class="flex text-text-dark items-center text-xl">
-                <FaPhoneAlt className="mr-3 text-primary" />
-                <p class="font-semibold">Phone</p>
-              </div>
-              <p set:html={markdownify(phone)} class="mt-2 leading-5 pl-8" />
-            </li>
-          </ul>
+              <p class="mt-2 font-medium text-text-dark">个人微信</p>
+            </div>
+          </div>
         </div>
-        <div class="sm:col-7 md:col-8">
-          <form
-            class="contact-form row gy-2 justify-center"
-            method="POST"
-            action={contact_form_action}
-          >
-            <div class="lg:col-6">
-              <label class="mb-2 block" for="name"
-                >Name <span class="text-red-600">*</span></label
-              >
-              <input
-                class="form-input w-full"
-                name="name"
-                type="text"
-                required
-              />
-            </div>
-            <div class="lg:col-6">
-              <label class="mb-2 block" for="email"
-                >Email <span class="text-red-600">*</span></label
-              >
-              <input
-                class="form-input w-full"
-                name="email"
-                type="email"
-                required
-              />
-            </div>
-            <div class="col-12">
-              <label class="mb-2 block" for="subject">Subject</label>
-              <input class="form-input w-full" name="subject" type="text" />
-            </div>
-            <div class="col-12">
-              <label class="mb-2 block" for="message"
-                >Message <span class="text-red-600">*</span></label
-              >
-              <textarea class="form-textarea w-full" rows="4"></textarea>
-            </div>
-            <div class="col-12">
-              <button class="btn btn-primary mt-2">Submit Now</button>
-            </div>
-          </form>
+      </div>
+      
+      <!-- 关注部分 -->
+      <div class="mt-16">
+        <p class="mb-8 text-2xl font-bold text-text-dark">关注我</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div class="text-center">
+            <img 
+              src="https://slefboot-1251736664.file.myqcloud.com/20230914_wx_qrcode_2.png" 
+              alt="微信公众号" 
+              class="h-48 w-auto mx-auto mb-2 shadow-md rounded-md" 
+            />
+            <p class="font-medium text-text-dark">微信公众号</p>
+          </div>
+          <div class="text-center">
+            <img 
+              src="https://slefboot-1251736664.file.myqcloud.com/20230914_xhs_qrcode_2.png" 
+              alt="小红书" 
+              class="h-48 w-auto mx-auto mb-2 shadow-md rounded-md" 
+            />
+            <p class="font-medium text-text-dark">小红书</p>
+          </div>
+          <div class="text-center">
+            <img 
+              src="https://slefboot-1251736664.file.myqcloud.com/20230914_dy_qrcode.png" 
+              alt="抖音" 
+              class="h-48 w-auto mx-auto mb-2 shadow-md rounded-md" 
+            />
+            <p class="font-medium text-text-dark">抖音</p>
+          </div>
         </div>
       </div>
     </div>
