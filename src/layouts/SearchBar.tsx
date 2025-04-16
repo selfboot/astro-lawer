@@ -52,7 +52,7 @@ export default function SearchBar({ searchList }: Props) {
   }, []);
 
   useEffect(() => {
-    let inputResult = inputVal.length > 2 ? fuse.search(inputVal) : [];
+    let inputResult = inputVal.length >= 2 ? fuse.search(inputVal) : [];
     setSearchResults(inputResult);
 
     if (inputVal.length > 0) {
