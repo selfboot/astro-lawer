@@ -8,6 +8,7 @@ import Header from "@/partials/Header.astro";
 import "@/styles/main.css";
 import { ClientRouter } from "astro:transitions";
 import SpeedInsights from "@vercel/speed-insights/astro";
+import Analytics from '@vercel/analytics/astro'
 
 // font families
 const pf = theme.fonts.font_family.primary;
@@ -152,6 +153,7 @@ const { title, meta_title, description, image, noindex, canonical } =
       <slot />
     </main>
     <Footer />
+    <Analytics/>
     <SpeedInsights />
   </body>
 </html>
