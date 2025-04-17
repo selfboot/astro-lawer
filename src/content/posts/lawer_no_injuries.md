@@ -5,7 +5,7 @@ description: 小盛律师深入分析被打没受伤的情况，如何通过法�
 date: 2025-04-09 21:05:18
 image: "https://slefboot-1251736664.file.myqcloud.com/20250409_lawer_no_injuries.png"
 categories: ["法律科普"]
-authors: ["小盛律师"]
+authors: ["盛律师"]
 tags: ["治安管理"]
 draft: false
 ---

@@ -5,7 +5,7 @@ description: 被打成轻微伤后该如何维权？本文由小盛律师详解�
 date: 2025-04-13T05:00:00Z
 image: "https://slefboot-1251736664.file.myqcloud.com/20250416_slightly_injured.png/webp"
 categories: ["法律科普"]
-authors: ["小盛律师"]
+authors: ["盛律师"]
 tags: ["行政拘留", "治安管理"]
 draft: false
 ---

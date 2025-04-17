@@ -5,7 +5,7 @@ description: "收到派出所传唤通知时，不必过度恐慌。本文详细
 date: 2025-04-12T05:00:00Z
 image: "https://slefboot-1251736664.file.myqcloud.com/20250415_被派出所传唤.png/webp"
 categories: ["法律科普"]
-authors: ["小盛律师"]
+authors: ["盛律师"]
 tags: ["治安管理", "刑事诉讼"]
 draft: false
 ---

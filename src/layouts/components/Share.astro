@@ -1,55 +1,23 @@
 ---
-import config from "@/config/config.json";
-import {
-  IoLogoFacebook,
-  IoLogoLinkedin,
-  IoLogoPinterest,
-  IoLogoTwitter,
-} from "react-icons/io5";
-
-const { base_url } = config.site;
-const { title, description, slug, className } = Astro.props;
+// 接收文章标题、描述和链接作为属性
+const { meta_title, description, slug, className } = Astro.props;
 ---
 
-<ul class={`${className}`}>
-  <li class="inline-block">
-    <a
-      aria-label="facebook share button"
-      href={`https://facebook.com/sharer/sharer.php?u=${base_url}/${slug}`}
-      target="_blank"
-      rel="noreferrer noopener"
-    >
-      <IoLogoFacebook />
-    </a>
-  </li>
-  <li class="inline-block">
-    <a
-      aria-label="twitter share button"
-      href={`https://twitter.com/intent/tweet/?text=${title}&amp;url=${base_url}/${slug}`}
-      target="_blank"
-      rel="noreferrer noopener"
-    >
-      <IoLogoTwitter />
-    </a>
-  </li>
-  <li class="inline-block">
-    <a
-      aria-label="linkedin share button"
-      href={`https://www.linkedin.com/shareArticle?mini=true&url=${base_url}/${slug}&title=${title}&summary=${description}&source=${base_url}`}
-      target="_blank"
-      rel="noreferrer noopener"
-    >
-      <IoLogoLinkedin />
-    </a>
-  </li>
-  <li class="inline-block">
-    <a
-      aria-label="pinterest share button"
-      href={`https://pinterest.com/pin/create/button/?url=${base_url}/${slug}&media=&description=${description}`}
-      target="_blank"
-      rel="noreferrer noopener"
-    >
-      <IoLogoPinterest />
-    </a>
-  </li>
-</ul>
+<div class={`social-share ${className}`}>
+  <!-- AddToAny BEGIN -->
+  <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+    <a class="a2a_button_wechat"></a>
+    <a class="a2a_button_sina_weibo"></a>
+    <a class="a2a_button_evernote"></a>
+    <a class="a2a_button_twitter"></a>
+  </div>
+  <script define:vars={{ title: meta_title, description, url: slug }}>
+    // 设置 AddToAny 配置
+    window.a2a_config = window.a2a_config || {};
+    window.a2a_config.linkname = title;
+    window.a2a_config.linkurl = window.location.href;
+  </script>
+  <script defer src="https://static.addtoany.com/menu/page.js"></script>
+  <!-- AddToAny END -->
+</div>

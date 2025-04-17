@@ -5,7 +5,7 @@ description: 本文揭秘广州劳动仲裁中的关键'潜规则'，帮助劳�
 date: 2025-04-16 21:05:18
 image: "https://slefboot-1251736664.file.myqcloud.com/20250416_labor_arbitration.png/webp"
 categories: ["劳动纠纷"]
-authors: ["小盛律师"]
+authors: ["盛律师"]
 tags: ["劳动合同法"]
 draft: false
 ---

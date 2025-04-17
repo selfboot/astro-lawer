@@ -5,7 +5,7 @@ description: "试用期不是法外之地，更不是老板的随心所欲期。
 date: 2025-04-14T05:00:00Z
 image: "https://slefboot-1251736664.file.myqcloud.com/20250415_试用期规定.png/webp"
 categories: ["劳动纠纷"]
-authors: ["小盛律师"]
+authors: ["盛律师"]
 tags: ["试用期", "劳动合同法"]
 draft: false
 ---

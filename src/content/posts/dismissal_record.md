@@ -5,7 +5,7 @@ description: "面对公司辞退，录音是保护自身权益的重要手段。
 date: 2025-04-15 21:05:18
 image: "https://slefboot-1251736664.file.myqcloud.com/20250416_dismissal_record.png/webp"
 categories: ["劳动纠纷"]
-authors: ["小盛律师"]
+authors: ["盛律师"]
 tags: ["劳动合同法", "证据"]
 draft: false
 ---

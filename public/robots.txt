@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Disallow: /api/*
+
+Sitemap: https://shenglvshi.cn/sitemap-index.xml
