@@ -6,7 +6,7 @@ date: 2025-04-12T05:00:00Z
 image: "https://slefboot-1251736664.file.myqcloud.com/20250415_被派出所传唤.png/webp"
 categories: ["法律科普"]
 authors: ["盛律师"]
-tags: ["治安管理", "刑事诉讼"]
+tags: ["治安管理"]
 draft: false
 ---
 
