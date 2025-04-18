@@ -65,7 +65,7 @@ draft: false
 
 ![AI 给出的离婚流程](https://slefboot-1251736664.file.myqcloud.com/20240414_lawer_or_ai_copilot_suggestion_2.png)
 
-如果看过我之前文章，[必读的离婚法律指南：离婚流程要多久？](https://selfboot.cn/2023/08/05/divorce_legal_longtime/)，应该对这些内容不陌生吧。让人想不到的是，AI 现在把这些流程也搞得这么明白，还这么清晰的列了出来。
+如果看过我之前文章，[必读的离婚法律指南：离婚流程要多久？](https://shenglvshi.cn/divorce_legal_longtime/)，应该对这些内容不陌生吧。让人想不到的是，AI 现在把这些流程也搞得这么明白，还这么清晰的列了出来。
 
 ## AI 文书
 
@@ -73,7 +73,7 @@ draft: false
 
 ![AI 给出的各种文书](https://slefboot-1251736664.file.myqcloud.com/20240414_lawer_or_ai_copilot_suggestion_3.png)
 
-这些文书**比网上的模板质量好了一些**，不过和[小盛律师](https://selfboot.cn/links)根据个人案件起草的比，还是有不少差距的。免费的东西，还是有一些缺陷的，不然为啥那么多人找律师起草文书呢，哈哈。
+这些文书**比网上的模板质量好了一些**，不过和[盛律师](https://shenglvshi.cn/contact)根据个人案件起草的比，还是有不少差距的。免费的东西，还是有一些缺陷的，不然为啥那么多人找律师起草文书呢，哈哈。
 
 ## AI 的“人情味”
 

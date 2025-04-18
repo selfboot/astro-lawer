@@ -91,7 +91,7 @@ draft: false
 
 在财产分割时，一般原则是**平均分割**。但是，也可以根据双方的贡献、家庭需要、抚养子女的责任等因素，进行不等份的分割。如果双方不能达成一致，可以向法院申请裁决。
 
-关于财产分割的详细情况，可以参考 [必读的离婚法律指南：财产分割](https://selfboot.cn/2023/07/23/divorce_legal_money/)。关于父母在子女婚后出资买房的情形，可以参考我的另一篇文章 [离婚财产分割：父母给的首付钱如何分？](https://selfboot.cn/2023/07/29/divorce_legal_money_parent/)。
+关于财产分割的详细情况，可以参考 [必读的离婚法律指南：财产分割](https://shenglvshi.cn/divorce_legal_money/)。关于父母在子女婚后出资买房的情形，可以参考我的另一篇文章 [离婚财产分割：父母给的首付钱如何分？](https://shenglvshi.cn/divorce_legal_money_parent/)。
 
 ### 债务分割
 
