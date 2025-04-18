@@ -4,8 +4,8 @@
     "base_url": "https://shenglvshi.cn",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "favicon": "https://slefboot-1251736664.file.myqcloud.com/20250418_favicon.png",
+    "logo": "https://slefboot-1251736664.file.myqcloud.com/20250418_logo.png",
     "logo_width": "200",
     "logo_height": "34",
     "logo_text": "盛律师"

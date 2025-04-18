@@ -61,14 +61,14 @@ const { title, meta_title, image, what_i_do } = entry.data;
                       class="rounded-full mr-4"
                     />
                   ) : (
-                    <div class="w-[60px] h-[60px] bg-primary/20 rounded-full flex items-center justify-center mr-4">
+                    <div class="w-[60px] h-[60px] bg-primary/20 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
                       <span class="text-primary text-xl font-bold">
                         {(item.client_name || '客户').charAt(0)}
                       </span>
                     </div>
                   )}
-                  <div>
-                    <h4 class="text-dark dark:text-white font-semibold">{item.client_name || '客户'}</h4>
+                  <div class="min-w-0 overflow-hidden">
+                    <h4 class="text-dark dark:text-white font-semibold truncate">{item.client_name || '客户'}</h4>
                   </div>
                 </div>
                 <div class="text-yellow-400 mb-2 flex">

@@ -1,7 +1,7 @@
 ---
 title: "盛律师，你身边的靠谱律师"
 meta_title: "盛律师，你身边的靠谱律师。经验丰富，接受委托诉讼，法律咨询，文书撰写，专项法律服务，背调，公证，合同修改"
-image: "/images/author.webp"
+image: "https://slefboot-1251736664.file.myqcloud.com/20250418_author.webp"
 draft: false
 
 what_i_do:
