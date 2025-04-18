@@ -4,7 +4,7 @@ meta_title: 消失不见的二房东-寻找法律制裁你!
 date: 2019-10-01T04:35:54
 description: 用亲身经历,详细记录了一个普通租户如何用法律手段追讨被二房东坑掉的押金的全过程。涵盖证据收集、起诉状撰写、立案申请等法律操作实务。旨在展示普通人利用现有法律途径维护合法权益的可能,鼓励更多租户勇于维权,不要畏惧法律程序的复杂。
 image: "https://slefboot-1251736664.file.myqcloud.com/20230722_self_rent_pre_1.png/webp"
-categories: ["法律普及"]
+categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["租房纠纷"]
 draft: false

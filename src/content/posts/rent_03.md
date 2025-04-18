@@ -4,7 +4,7 @@ meta_title: 消失不见的二房东-立案与最终判决!
 date: 2019-11-02T04:35:54
 description: 作者根据法院要求补交维权材料的详细过程,并描述了法院立案受理环节的场景。法院受理后进入诉前调解程序,作者耐心等待调解结果,同时告知被告情况,展现调解善意。最终法院作出判决,结果显示被告有同类违约前科,标志着维权胜利。
 image: "https://slefboot-1251736664.file.myqcloud.com/20230722_self_rent_done_1.png"
-categories: ["法律普及"]
+categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["租房纠纷"]
 draft: false

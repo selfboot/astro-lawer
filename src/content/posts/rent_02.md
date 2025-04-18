@@ -4,7 +4,7 @@ meta_title: 消失不见的二房东-网上立案真简单！
 date: 2019-11-01T04:35:54
 description: 作者利用广州法院网上立案系统维权的详细步骤,包括立案申请、材料上传、信息确认等操作指南。并分享了立案成功后的司法流程跟踪方法。旨在向更多租户展示利用网络立案维权的便捷途径。
 image: "https://slefboot-1251736664.file.myqcloud.com/20230722_self_rent_do_1.png/webp"
-categories: ["法律普及"]
+categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["租房纠纷"]
 draft: false
