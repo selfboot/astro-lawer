@@ -34,14 +34,6 @@ const { title, description, meta_title, image } = entry.data;
               <p set:html={markdownify(address)} class="leading-6 pl-8" />
             </div>
             
-            <div class="mb-6">
-              <div class="flex text-text-dark items-center text-xl mb-3">
-                <FaEnvelope className="mr-3 text-primary" />
-                <p class="font-semibold">邮件</p>
-              </div>
-              <p set:html={markdownify(email)} class="leading-6 pl-8 content" />
-            </div>
-            
             <div>
               <div class="flex text-text-dark items-center text-xl mb-3">
                 <FaWeixin className="mr-3 text-primary" />

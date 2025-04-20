@@ -5,20 +5,12 @@
       "url": "/"
     },
     {
-      "name": "关于",
-      "url": "/about"
-    },
-    {
       "name": "联系我",
       "url": "/contact"
     },
     {
-      "name": "法律普及",
-      "url": "/categories"
-    },
-    {
-      "name": "标签",
-      "url": "/tags"
+      "name": "文章",
+      "url": "/posts"
     }
   ],
   "footer": [

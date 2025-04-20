@@ -50,6 +50,8 @@ const { main }: { main: NavigationLink[] } = menu;
     </label>
     <!-- /navbar toggler -->
 
+    <div class="flex-grow"></div>
+
     <ul
       id="nav-menu"
       class="navbar-nav order-3 hidden w-full md:order-1 md:flex md:w-auto"
@@ -86,12 +88,12 @@ const { main }: { main: NavigationLink[] } = menu;
         ))
       }
     </ul>
-    <div class="order-1 ml-auto flex md:order-2 md:ml-0">
+    <div class="order-1 ml-0 flex md:order-2 md:ml-0">
       <a
-        class="mr-4 inline-block cursor-pointer p-2 text-xl text-dark transition hover:text-primary md:mr-0"
+        class="inline-block cursor-pointer p-2 text-xl text-dark transition hover:text-primary"
         href="/search"
-        title="seach"
-        aria-label="seach"
+        title="search"
+        aria-label="search"
       >
         <IoSearch />
       </a>

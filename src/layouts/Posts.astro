@@ -18,68 +18,70 @@ const { summary_length } = config.settings;
 const { className, posts, fluid } = Astro.props;
 ---
 
-<div
-  class={`row gy-5 gx-4 ${className} ${posts.length == 1 ? "justify-center" : ""} `}
->
+<div class={`${className}`}>
   {
     posts.map((post, i: number) => (
-      <div class={i === 0 && fluid != false ? "col-12" : "col-12 sm:col-6"}>
-        {post.data.image && (
-          <a
-            href={`/${post.id}`}
-            class="rounded-lg block hover:text-primary overflow-hidden group"
-          >
-            <Image
-              class="group-hover:scale-[1.03] transition duration-300 w-full"
-              src={post.data.image}
-              alt={post.data.title}
-              width={i === 0 ? 925 : 445}
-              height={i === 0 ? 475 : 230}
-            />
-          </a>
-        )}
-        <ul class="mt-6 mb-4 flex flex-wrap items-center text-text">
-          <li class="mr-5 flex items-center flex-wrap font-medium">
-            <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
-            {dateFormat(post.data.date!)}
-          </li>
-          <li class="mr-5 flex items-center flex-wrap">
-            <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
+      <div class="flex flex-col md:flex-row gap-6 mb-10 items-start">
+        <div class="flex-1">
+          <ul class="mb-4 flex flex-wrap items-center text-text">
+            <li class="mr-5 flex items-center flex-wrap font-medium">
+              <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
+              {dateFormat(post.data.date!)}
+            </li>
+            <li class="mr-5 flex items-center flex-wrap">
+              <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
 
-            <ul>
-              {post.data.categories.map((category, i: number) => (
-                <li class="inline-block">
-                  <a
-                    href={`/categories/${slugify(category)}`}
-                    class="mr-2 hover:text-primary font-medium"
-                  >
-                    {humanize(category)}
-                    {i !== post.data.categories.length - 1 && ","}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </li>
-        </ul>
-        <h3 class="mb-4">
-          <a
-            href={`/${post.id}`}
-            class="block hover:text-primary transition duration-300"
-          >
-            {post.data.title}
-          </a>
-        </h3>
-        <p class="text-text">
-          {plainify(
-            (post.body ?? "").slice(
-              0,
-              Number(
-                i === 0 && fluid != false ? summary_length * 2 : summary_length
+              <ul>
+                {post.data.categories.map((category, i: number) => (
+                  <li class="inline-block">
+                    <a
+                      href={`/categories/${slugify(category)}`}
+                      class="mr-2 hover:text-primary font-medium"
+                    >
+                      {humanize(category)}
+                      {i !== post.data.categories.length - 1 && ","}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </li>
+          </ul>
+          <h3 class="mb-4">
+            <a
+              href={`/${post.id}`}
+              class="block hover:text-primary transition duration-300"
+            >
+              {post.data.title}
+            </a>
+          </h3>
+          <p class="text-text">
+            {plainify(
+              (post.body ?? "").slice(
+                0,
+                Number(summary_length)
               )
-            )
-          )}
-          ...
-        </p>
+            )}
+            ...
+          </p>
+        </div>
+        {post.data.image && (
+          <div class="md:w-1/3 w-full md:pt-10">
+            <a
+              href={`/${post.id}`}
+              class="rounded-lg block hover:text-primary overflow-hidden group"
+            >
+              <div class="relative w-full pb-[56.25%] overflow-hidden rounded-lg">
+                <Image
+                  class="group-hover:scale-[1.03] transition duration-300 absolute top-0 left-0 w-full h-full object-cover"
+                  src={post.data.image}
+                  alt={post.data.title}
+                  width={445}
+                  height={250}
+                />
+              </div>
+            </a>
+          </div>
+        )}
       </div>
     ))
   }
