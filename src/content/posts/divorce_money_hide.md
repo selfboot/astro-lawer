@@ -10,7 +10,7 @@ tags: ["离婚"]
 draft: false
 ---
 
-本文是[盛律师](https://shenglvshi.cn/about)离婚法律指南系列中的一篇，给大家分享下关于**恶意转移财产**的法律科普。必读的离婚法律指南系列文章如下：
+本文是[盛律师](https://shenglvshi.cn/)离婚法律指南系列中的一篇，给大家分享下关于**恶意转移财产**的法律科普。必读的离婚法律指南系列文章如下：
 
 - [当婚姻走到了尽头：必读的离婚法律指南](https://shenglvshi.cn/divorce_legal_knowlage/)
 - [必读的离婚法律指南：离婚流程要多久？](https://shenglvshi.cn/divorce_legal_longtime/)

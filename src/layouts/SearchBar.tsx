@@ -92,58 +92,62 @@ export default function SearchBar({ searchList }: Props) {
 
       <div className="row">
         {searchResults?.map(({ item }) => (
-          <div key={item.slug} className={"col-12 mb-8 sm:col-6"}>
+          <div key={item.slug} className="flex flex-col md:flex-row gap-6 mb-10 items-start">
+            <div className="flex-1">
+              <ul className="mb-4 flex flex-wrap items-center text-text">
+                <li className="mr-5 flex items-center flex-wrap font-medium">
+                  <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
+                  <>{dateFormat(item.data.date)}</>
+                </li>
+                <li className="mr-5 flex items-center flex-wrap">
+                  <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
+                  <>
+                    <ul>
+                      {item.data.categories.map((category: string, i: number) => (
+                        <li key={i} className="inline-block">
+                          <a
+                            href={`/categories/${slugify(category)}`}
+                            className="mr-2 hover:text-primary font-medium"
+                          >
+                            {humanize(category)}
+                            {i !== item.data.categories.length - 1 && ","}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </>
+                </li>
+              </ul>
+              <h3 className="mb-4">
+                <a
+                  href={`/${item.slug}`}
+                  className="block hover:text-primary transition duration-300"
+                >
+                  {item.data.title}
+                </a>
+              </h3>
+              <p className="text-text">
+                {item.content?.slice(0, Number(summary_length))}...
+              </p>
+            </div>
             {item.data.image && (
-              <a
-                href={`/${item.slug}`}
-                className="rounded-lg block hover:text-primary overflow-hidden group"
-              >
-                <img
-                  className="group-hover:scale-[1.03] transition duration-300 w-full"
-                  src={item.data.image}
-                  alt={item.data.title}
-                  width={445}
-                  height={230}
-                />
-              </a>
+              <div className="md:w-1/3 w-full md:pt-10">
+                <a
+                  href={`/${item.slug}`}
+                  className="rounded-lg block hover:text-primary overflow-hidden group"
+                >
+                  <div className="relative w-full pb-[56.25%] overflow-hidden rounded-lg">
+                    <img
+                      className="group-hover:scale-[1.03] transition duration-300 absolute top-0 left-0 w-full h-full object-cover"
+                      src={item.data.image}
+                      alt={item.data.title}
+                      width={445}
+                      height={250}
+                    />
+                  </div>
+                </a>
+              </div>
             )}
-
-            <ul className="mt-6 mb-4 flex flex-wrap items-center text-text">
-              <li className="mr-5 flex items-center flex-wrap font-medium">
-                <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
-                <>{dateFormat(item.data.date)}</>
-              </li>
-              <li className="mr-5 flex items-center flex-wrap">
-                <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
-                <>
-                  <ul>
-                    {item.data.categories.map((category: string, i: number) => (
-                      <li key={i} className="inline-block">
-                        <a
-                          href={`/categories/${slugify(category)}`}
-                          className="mr-2 hover:text-primary font-medium"
-                        >
-                          {humanize(category)}
-                          {i !== item.data.categories.length - 1 && ","}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </>
-              </li>
-            </ul>
-
-            <h3 className="mb-2">
-              <a
-                href={`/${item.slug}`}
-                className="block hover:text-primary transition duration-300"
-              >
-                {item.data.title}
-              </a>
-            </h3>
-            <p className="text-text">
-              {item.content?.slice(0, Number(summary_length))}...
-            </p>
           </div>
         ))}
       </div>
