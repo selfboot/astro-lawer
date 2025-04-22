@@ -3,7 +3,7 @@ title: "流浪狗咬人，投喂者要不要赔偿？小盛律师 2025 最新解
 meta_title: "流浪狗咬人，投喂者要不要赔偿？小盛律师 2025 最新解读"
 description: "流浪狗咬人，投喂者要担责吗？小盛律师通过真实案例解析投喂者的法律风险：长期固定投喂可能被认定为'事实上的管理人'，需承担赔偿责任；偶尔投喂则通常无需担责。文章详解《民法典》关于动物致害责任的规定，分析法院判决的考量因素，并提供安全投喂建议。同时指出这是法律的灰色地带，不同法院判决可能不同。善心投喂值得提倡，但也要注意规避法律风险，避免爱心变'坑'。"
 date: 2025-03-23T10:00:00Z
-image: "https://slefboot-1251736664.file.myqcloud.com/20250416_slightly_injured.png/webp"
+image: "https://slefboot-1251736664.file.myqcloud.com/20250422_stray_dogs_bite_cover.webp"
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["动物致害责任"]
