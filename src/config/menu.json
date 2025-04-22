@@ -19,6 +19,14 @@
       "url": "/posts"
     },
     {
+      "name": "文章分类",
+      "url": "/categories"
+    },
+    {
+      "name": "文章标签",
+      "url": "/tags"
+    },
+    {
       "name": "联系我",
       "url": "/contact"
     }
