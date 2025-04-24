@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250424_security_competit
 categories: ["劳动纠纷"]
 authors: ["盛律师"]
 tags: ["竞业限制"]
-draft: false
+draft: true
 ---
 
 最近啊，最高法和人社部联合发布了[第四批劳动争议典型案例](https://www.court.gov.cn/zixun/xiangqing/462311.html)，里面有不少值得咱们打工人关注的“硬菜”。其中有个关于竞业限制的案例，看得我真是哭笑不得，必须得跟大家说道说道。
