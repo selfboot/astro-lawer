@@ -45,7 +45,7 @@ const { title, meta_title, image, what_i_do } = entry.data;
 
   <section class="section pt-0">
     <div class="container">
-      <h3 class="page-heading mb-20">{what_i_do.title}</h3>
+      <h3 class="page-heading mb-20 text-text-dark">{what_i_do.title}</h3>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {
           what_i_do.items.map((item: any) => (
@@ -68,13 +68,13 @@ const { title, meta_title, image, what_i_do } = entry.data;
                     </div>
                   )}
                   <div class="min-w-0 overflow-hidden">
-                    <h4 class="text-dark dark:text-white font-semibold truncate">{item.client_name || '客户'}</h4>
+                    <h4 class="font-semibold truncate text-text-dark">{item.client_name || '客户'}</h4>
                   </div>
                 </div>
-                <div class="text-yellow-400 mb-2 flex">
+                <div class="text-primary mb-2 flex">
                   {'★'.repeat(item.rating || 5)}
                 </div>
-                <p class="text-left text-text-dark dark:text-text-dark-dark">{item.description}</p>
+                <p class="text-left text-text">{item.description}</p>
               </div>
             </div>
           ))
