@@ -1,6 +1,31 @@
 User-agent: *
 Allow: /
 
-Disallow: /api/*
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /404
+Disallow: /500
+Disallow: /*.json$
 
+User-Agent: GPTBot
+Allow: /llms.txt
+Disallow: /
+
+User-Agent: anthropic-ai
+Allow: /llms.txt
+Disallow: /
+
+User-Agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /404
+Disallow: /500
+Disallow: /*.json$
+
+LLM-Content: https://shenglvshi.cn/llms.txt
+LLM-Full-Content: https://shenglvshi.cn/llms-full.txt
 Sitemap: https://shenglvshi.cn/sitemap-index.xml
