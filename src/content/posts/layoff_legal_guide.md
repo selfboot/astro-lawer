@@ -6,7 +6,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20231023_gpt4_lawer_helper
 date: 2023-06-06T09:54:09
 categories: ["劳动纠纷"]
 authors: ["盛律师"]
-tags: ["裁员", "劳动合同法"]
+tags: ["裁员赔偿", "劳动合同法"]
 draft: false
 ---
 
