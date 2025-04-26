@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20240510_work_related_inju
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["工伤认定"]
-draft: false
+draft: true
 ---
 
 前面写了几篇工伤的文章了：
