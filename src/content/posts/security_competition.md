@@ -6,7 +6,7 @@ description: "最高法发布第四批劳动争议典型案例，揭示竞业限
 image: "https://slefboot-1251736664.file.myqcloud.com/20250424_security_competition_cover.webp"
 categories: ["劳动纠纷"]
 authors: ["盛律师"]
-tags: ["竞业限制"]
+tags: ["竞业协议"]
 draft: false
 ---
 

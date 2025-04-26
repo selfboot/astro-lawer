@@ -3,7 +3,7 @@ title: 最新竞业限制协议详解：生效，违约，赔偿
 meta_title: 最新竞业限制协议详解：生效，违约，赔偿 - 盛律师解读
 description: 小盛律师深入解析竞业限制协议的法律内涵，从协议的生效、违约到赔偿等关键环节为您揭示竞业协议背后的法律风险。文章结合实际案例，提醒劳动者与雇主双方在签订和执行协议时应注意的问题，旨在保护双方权益，避免不必要的法律纠纷。
 date: 2023-10-28T13:05:18
-image: "https://slefboot-1251736664.file.myqcloud.com/20231013_lawer_compete_agreements_index.webp"
+image: "https://slefboot-1251736664.file.myqcloud.com/20250426_compete_agreements_cover.webp"
 categories: ["劳动纠纷"]
 authors: ["盛律师"]
 tags: ["竞业协议"]
