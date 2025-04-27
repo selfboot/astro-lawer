@@ -93,34 +93,34 @@ export default function astroIndexNow(options = {}) {
           // 使用全局 fetch API (Node.js 18+)
           console.log('开始提交到 Bing IndexNow...');
           
-          // 将 fetch 请求移到构建结束后的单独进程执行
-          setTimeout(async () => {
-            try {
-              const response = await fetch('https://api.indexnow.org/IndexNow', {
-                method: 'POST',
-                headers: {
-                  'Content-Type': 'application/json; charset=utf-8'
-                },
-                body: JSON.stringify(payload)
-              });
+          // 直接执行fetch请求，而不是放在setTimeout中
+          try {
+            const response = await fetch('https://api.indexnow.org/IndexNow', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json; charset=utf-8'
+              },
+              body: JSON.stringify(payload)
+            });
+            
+            // 对于IndexNow API，202也是一个成功的状态码，表示请求已接受但尚未处理完成
+            if (response.status === 200 || response.status === 202) {
+              console.log(`✅ 成功提交今日创建的URL到Bing IndexNow (状态码: ${response.status})`);
+              console.log('👉 状态码202表示请求已被接受处理，但处理尚未完成');
+            } else {
+              console.error(`❌ 提交失败，状态码: ${response.status}`);
               
-              if (response.status === 200) {
-                console.log('✅ 成功提交今日创建的URL到Bing IndexNow');
-              } else {
-                console.error(`❌ 提交失败，状态码: ${response.status}`);
-                
-                // 尝试读取错误信息
-                try {
-                  const errorData = await response.text();
-                  console.error('错误详情:', errorData);
-                } catch (e) {
-                  // 忽略读取错误
-                }
+              // 尝试读取错误信息
+              try {
+                const errorData = await response.text();
+                console.error('错误详情:', errorData);
+              } catch (e) {
+                // 忽略读取错误
               }
-            } catch (submitError) {
-              console.error('提交到Bing时出错:', submitError);
             }
-          }, 100);
+          } catch (submitError) {
+            console.error('提交到Bing时出错:', submitError);
+          }
           
         } catch (error) {
           console.error('Bing IndexNow集成出错:', error);
