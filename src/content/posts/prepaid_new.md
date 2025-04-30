@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250430_prepaid_new_cover
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["预付费", "司法解释"]
-draft: true
+draft: false
 ---
 
 预付卡消费这事儿，健身、美容、教培、养老…哪儿都有。方便是方便，但坑也不少。交了钱，商家服务打折，甚至关门跑路，咱们的钱找谁要去？之前咱也写过，[教培跑路、家长退费有多难？小盛律师带你了解真相](http://shenglvshi.cn/runaway_institution)。
