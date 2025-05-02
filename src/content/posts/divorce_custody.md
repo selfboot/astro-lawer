@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250501_divorce_custody_c
 categories: ["婚姻家庭"]
 authors: ["盛律师"]
 tags: ["离婚"]
-draft: true
+draft: false
 ---
 
 平时做的离婚案件中，争议最大的往往是子女的抚养权。当事人问的最多的就是：“盛律师，离婚后孩子能判给我吗？” 这个问题，并不好回答。法院判子女归属的时候，会考虑很多因素，没有一个统一的标准答案。
