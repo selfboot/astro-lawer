@@ -2,7 +2,7 @@
 title: 裁员赔偿 2N 的情形有哪些？每个打工人都要知道的法律知识
 meta_title: "裁员赔偿 2N 的情形有哪些？每个打工人都要知道的法律知识"
 description: "被裁员能拿2N赔偿吗？本文详解《劳动合同法》中N（经济补偿）与2N（赔偿金）的区别。律师解析：只有公司违法解除劳动合同，如无合法理由、保护期内（三期/工伤/医疗期）解雇、变相逼迫辞职等，才需支付2N。了解这些法律知识和维权建议，识别违法裁员，保护自身权益。打工人必读！"
-image: "https://slefboot-1251736664.file.myqcloud.com/20250426_compensation_2n_cover.webp"
+image: "https://slefboot-1251736664.file.myqcloud.com/20250502_compensation_2n_cover.webp"
 date: 2025-04-28T09:54:09
 categories: ["劳动纠纷"]
 authors: ["盛律师"]
