@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250504_reliable_lawyer.w
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["律师收费"]
-draft: true
+draft: false
 ---
 
 在我之前的[律师费科普的文章里](https://shenglvshi.cn/lawer_price)，有不少读者留言说遇到过不靠谱的律师，对律师印象不是很好。有的吐槽说，律师给钱之前态度很好，给了钱就是“大爷”了。还有的说，明明说是免费咨询，最后交了好几千的保全费，看材料费之类的。
