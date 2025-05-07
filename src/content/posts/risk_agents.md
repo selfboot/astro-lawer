@@ -3,11 +3,11 @@ title: 风险代理 2025 最新解读，来看看律师办案的“紧箍咒”
 meta_title: 风险代理 2025 最新解读，来看看律师办案的“紧箍咒”
 description: "打。"
 image: "https://slefboot-1251736664.file.myqcloud.com/20250506_risk_agents_cover.webp"
-date: 2025-05-06T03:23:34
+date: 2025-05-07T03:23:34
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["风险代理"]
-draft: true
+draft: false
 ---
 
 前面文章有些读者留言，说想让盛律师给他做劳动纠纷案件的风险代理。这不是害我吗，我要真风险代理了，那就惨了。
