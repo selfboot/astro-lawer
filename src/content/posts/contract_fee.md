@@ -2,12 +2,12 @@
 title: "律师看合同要多少钱，为什么这么贵？"
 meta_title: "律师看合同要多少钱，为什么这么贵？"
 description: 深入解析律师合同审查收费背后的价值，从专业风险识别、法律经验积累到责任承担等多个维度，揭示为什么律师看合同收费"贵"得合理。了解合同审查的重要性，掌握如何通过专业法律服务规避潜在风险，保护自身权益。
-date: 2025-05-08T11:05:18
+date: 2025-05-09T11:05:18
 image: "https://slefboot-1251736664.file.myqcloud.com/20250508_contract_fee_cover.webp"
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["律师收费"]
-draft: true
+draft: false
 ---
 
 执业这么多年，不止一次被人问到
