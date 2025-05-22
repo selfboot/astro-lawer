@@ -6,7 +6,7 @@ description: 本文探讨了人工智能在法律行业的应用，以百度法�
 image: "https://slefboot-1251736664.file.myqcloud.com/20240414_lawer_or_ai_copilot_doc.png"
 categories: ["婚姻家庭"]
 authors: ["盛律师"]
-tags: ["AI 法律助手"]
+tags: ["法律助手"]
 draft: false
 ---
 
