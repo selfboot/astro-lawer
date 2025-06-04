@@ -7,7 +7,7 @@ image: https://slefboot-1251736664.file.myqcloud.com/20250603_court_filing_cover
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["法律流程"]
-draft: true
+draft: false
 ---
 
 不少朋友都跟我吐过槽：“盛律师，我这材料准备得好好的，怎么法院就是不给立案呢？” 这事儿确实挺让人头疼。其实不止普通朋友立案被退回，律师们立案有时候也会被法院退回。
