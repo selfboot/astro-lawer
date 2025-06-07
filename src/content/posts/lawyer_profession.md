@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250606_lawyer_profession
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["律师价值"]
-draft: true
+draft: false
 ---
 
 转眼又到高考了，最近有读者私信我，给我来个了灵魂拷问：
