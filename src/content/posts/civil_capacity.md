@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250607_civil_capacity_co
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["民事诉讼"]
-draft: true
+draft: false
 ---
 
 经常有当事人问我一些问题：
