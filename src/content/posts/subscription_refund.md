@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250607_subscription_refu
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["消费者权益"]
-draft: flase
+draft: false
 ---
 
 现在这年代，手机上的不少 App 动不动就需要会员，开通的时候，用低价吸引你开连续包月或者连续包年。不少朋友开通后呢，就忘了这回事儿了。后面就算不用这个 App 了，每个月还是被扣钱。
