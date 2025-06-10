@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250609_cheated_by_lawyer
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["律师价值"]
-draft: true
+draft: false
 ---
 
 写了 100 多篇法律科普文章，看了很多读者留言，才发现不少人都吐槽说被律师“坑了”。我就有点不明白了，律师真的有这么胆大，敢去坑人？还是说可能很多人对律师的预期太高，中间有什么误会？
