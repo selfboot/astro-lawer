@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250613_game_refund_cover
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["游戏退款", "消费者权益"]
-draft: true
+draft: false
 ---
 
 暑假马上到了，又到了孩子们玩游戏的黄金期了。往年呢，就有朋友在微信上十万火急地问我。
