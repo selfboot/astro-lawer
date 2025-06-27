@@ -6,7 +6,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250513_sz_lawyer_fees_co
 date: 2025-05-14T09:54:09
 categories: ["劳动纠纷"]
 authors: ["盛律师"]
-tags: ["劳动合同法", "律师费"]
+tags: ["劳动合同法", "律师收费"]
 draft: false
 ---
 
