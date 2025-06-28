@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250627_duoyi_network_cov
 categories: ["劳动纠纷"]
 authors: ["盛律师"]
 tags: ["劳动法"]
-draft: true
+draft: false
 ---
 
 多益最近发了个很张扬的公告，不对，应该说是多益网络的老板发的。内容是真劲爆，**因为对广州某法院的几份判决不满，多益老板决定，要裁员千人以上，还要把总部搬离广州**。
