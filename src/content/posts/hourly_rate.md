@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250705_hourly_rate_cover
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["律师价值"]
-draft: true
+draft: false
 ---
 
 昨天有个当事人找到我，想来咨询问题，问了下咨询费用多少钱一个小时。我就报了个正常价，当事人有点接受不了，调侃说我靠咨询能赚几个亿了。
