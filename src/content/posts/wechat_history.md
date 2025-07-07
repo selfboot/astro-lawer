@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250704_wechat_history_co
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["证据"]
-draft: true
+draft: false
 ---
 
 现在社会，相信大家都离不开微信了，作为国民应用，大家的微信聊天记录里，记录了大量的生活、工作、学习、娱乐等方方面面的信息。当遇到纠纷的时候，很多聊天记录就成为了重要的证据。
