@@ -6,7 +6,7 @@ date: 2025-04-16 21:05:18
 image: "https://slefboot-1251736664.file.myqcloud.com/20250416_labor_arbitration.png/webp"
 categories: ["劳动纠纷"]
 authors: ["盛律师"]
-tags: ["劳动合同法", "裁员赔偿"]
+tags: ["劳动合同法", "裁员赔偿", "实务技巧"]
 draft: false
 ---
 
