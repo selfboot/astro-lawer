@@ -6,7 +6,7 @@ description: 起诉立案成功就万事大吉了？小心，这三大“雷区�
 image: "https://slefboot-1251736664.file.myqcloud.com/20250726_withdrawal_cover.webp"
 categories: ["法律科普"]
 authors: ["盛律师"]
-tags: ["诉讼流程"]
+tags: ["实务技巧"]
 draft: false
 ---
 

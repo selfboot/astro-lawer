@@ -5,15 +5,56 @@ const indexPageLink = currentPage === 2;
 const hasPrevPage = currentPage > 1;
 const hasNextPage = totalPages > currentPage;
 
+// 智能分页逻辑：最多显示7个页码
+const maxVisiblePages = 7;
 let pageList = [];
-for (let i = 1; i <= totalPages; i++) {
-  pageList.push(i);
+
+if (totalPages <= maxVisiblePages) {
+  // 如果总页数小于等于最大显示页数，显示所有页码
+  for (let i = 1; i <= totalPages; i++) {
+    pageList.push(i);
+  }
+} else {
+  // 智能显示页码
+  const halfVisible = Math.floor(maxVisiblePages / 2);
+  let startPage = Math.max(1, currentPage - halfVisible);
+  let endPage = Math.min(totalPages, currentPage + halfVisible);
+  
+  // 调整显示范围，确保显示足够的页码
+  if (endPage - startPage + 1 < maxVisiblePages) {
+    if (startPage === 1) {
+      endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+    } else {
+      startPage = Math.max(1, endPage - maxVisiblePages + 1);
+    }
+  }
+
+  // 添加首页
+  if (startPage > 1) {
+    pageList.push(1);
+    if (startPage > 2) {
+      pageList.push('...');
+    }
+  }
+
+  // 添加中间页码
+  for (let i = startPage; i <= endPage; i++) {
+    pageList.push(i);
+  }
+
+  // 添加末页
+  if (endPage < totalPages) {
+    if (endPage < totalPages - 1) {
+      pageList.push('...');
+    }
+    pageList.push(totalPages);
+  }
 }
 ---
 
 {
   totalPages > 1 && (
-    <nav class="mb-4 flex justify-center space-x-2 text-center" aria-label="Pagination">
+    <nav class="mb-8 flex justify-center items-center gap-3 text-center" aria-label="Pagination">
       {/* previous */}
       {hasPrevPage ? (
         <a
@@ -22,9 +63,9 @@ for (let i = 1; i <= totalPages; i++) {
               ? `${section ? "/" + section : ""}/posts`
               : `${section ? "/" + section : ""}/page/${currentPage - 1}`
           }
-          class="border border-primary hover:bg-primary hover:text-white rounded-md h-10 w-10 leading-[36px] font-semibold text-dark flex items-center justify-center transition duration-200"
+          class="border border-primary hover:bg-primary hover:text-white rounded-lg h-12 w-12 leading-[46px] font-semibold text-dark flex items-center justify-center transition duration-200 hover:shadow-md"
         >
-          <span class="sr-only">Previous</span>
+          <span class="sr-only">上一页</span>
           <svg
             class="h-5 w-5"
             xmlns="http://www.w3.org/2000/svg"
@@ -40,8 +81,8 @@ for (let i = 1; i <= totalPages; i++) {
           </svg>
         </a>
       ) : (
-        <span class="border border-gray-400 opacity-40 rounded-md h-10 w-10 leading-[36px] font-semibold text-dark flex items-center justify-center pointer-events-none">
-          <span class="sr-only">Previous</span>
+        <span class="border border-gray-300 bg-gray-100 opacity-50 rounded-lg h-12 w-12 leading-[46px] font-semibold text-gray-400 flex items-center justify-center pointer-events-none">
+          <span class="sr-only">上一页</span>
           <svg
             class="h-5 w-5"
             xmlns="http://www.w3.org/2000/svg"
@@ -60,22 +101,31 @@ for (let i = 1; i <= totalPages; i++) {
 
       {/* page index */}
       {pageList.map((pagination, i) =>
-        pagination === currentPage ? (
+        pagination === '...' ? (
           <span
+            key={i}
+            class="text-gray-500 font-semibold px-2 py-2 select-none"
+          >
+            ...
+          </span>
+        ) : pagination === currentPage ? (
+          <span
+            key={i}
             aria-current="page"
-            class={`border border-primary bg-primary rounded-md h-10 w-10 leading-[35px] font-semibold text-white`}
+            class="border border-primary bg-primary rounded-lg h-12 w-12 leading-[46px] font-semibold text-white shadow-md"
           >
             {pagination}
           </span>
         ) : (
           <a
+            key={i}
             href={
               pagination === 1
                 ? `${section ? "/" + section : ""}/posts`
                 : `${section ? "/" + section : ""}/page/${pagination}`
             }
             aria-current="page"
-            class={`border border-primary hover:bg-primary hover:text-white rounded-md h-10 w-10 leading-[36px] font-semibold text-dark flex items-center justify-center transition duration-200`}
+            class="border border-primary hover:bg-primary hover:text-white rounded-lg h-12 w-12 leading-[46px] font-semibold text-dark flex items-center justify-center transition duration-200 hover:shadow-md"
           >
             {pagination}
           </a>
@@ -86,9 +136,9 @@ for (let i = 1; i <= totalPages; i++) {
       {hasNextPage ? (
         <a
           href={`${section ? "/" + section : ""}/page/${currentPage + 1}`}
-          class="border border-primary hover:bg-primary hover:text-white rounded-md h-10 w-10 leading-[36px] font-semibold text-dark flex items-center justify-center transition duration-200"
+          class="border border-primary hover:bg-primary hover:text-white rounded-lg h-12 w-12 leading-[46px] font-semibold text-dark flex items-center justify-center transition duration-200 hover:shadow-md"
         >
-          <span class="sr-only">Next</span>
+          <span class="sr-only">下一页</span>
           <svg
             class="h-5 w-5"
             xmlns="http://www.w3.org/2000/svg"
@@ -104,8 +154,8 @@ for (let i = 1; i <= totalPages; i++) {
           </svg>
         </a>
       ) : (
-        <span class="border border-gray-400 opacity-40 rounded-md h-10 w-10 leading-[36px] font-semibold text-dark flex items-center justify-center pointer-events-none">
-          <span class="sr-only">Next</span>
+        <span class="border border-gray-300 bg-gray-100 opacity-50 rounded-lg h-12 w-12 leading-[46px] font-semibold text-gray-400 flex items-center justify-center pointer-events-none">
+          <span class="sr-only">下一页</span>
           <svg
             class="h-5 w-5"
             xmlns="http://www.w3.org/2000/svg"
