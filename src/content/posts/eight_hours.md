@@ -6,7 +6,7 @@ date: 2025-04-24T12:05:18
 image: "https://slefboot-1251736664.file.myqcloud.com/20250424_eight_hours_cover.webp"
 categories: ["劳动纠纷"]
 authors: ["盛律师"]
-tags: ["劳动法"]
+tags: ["劳动合同法"]
 draft: false
 ---
 
