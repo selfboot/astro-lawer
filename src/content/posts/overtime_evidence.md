@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250807_overtime_evidence
 categories: ["劳动纠纷"]
 authors: ["盛律师"]
 tags: ["加班"]
-draft: true
+draft: false
 ---
 
 这两天在网上看到一个帖子，特别有代表性。一位在杭州的朋友说，**公司开会口头通知，强制要求周二加班到晚上八点半，周四到九点半。没有书面文件，也没有加班费**。
