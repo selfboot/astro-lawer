@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250808_lease_contract.we
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["租赁合同"]
-draft: true
+draft: false
 ---
 
 今天在视频号刷到独臂网红素林关店的消息，说实话，看得挺不是滋味的。
