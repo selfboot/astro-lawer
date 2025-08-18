@@ -7,7 +7,7 @@ image: "https://slefboot-1251736664.file.myqcloud.com/20250818_social_security.w
 categories: ["劳动纠纷"]
 authors: ["盛律师"]
 tags: ["劳动合同法"]
-draft: true
+draft: false
 ---
 
 一说到社保，不管是老板还是员工，脑袋里可能都绷着一根弦。老板觉得社保成本高，员工呢又会觉得到手的钱少。于是，各种骚操作就来了：“咱签个自愿放弃协议？”，“我把社保折成现金给你？”
