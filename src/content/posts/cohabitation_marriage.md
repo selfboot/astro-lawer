@@ -6,7 +6,7 @@ date: 2025-05-17T12:00:00
 image: "https://slefboot-1251736664.file.myqcloud.com/20250517_cohabitation_marriage.webp"
 categories: ["婚姻家庭"]
 authors: ["盛律师"]
-tags: ["婚姻关系"]
+tags: ["同居关系"]
 draft: false
 ---
 

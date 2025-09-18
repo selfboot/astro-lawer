@@ -6,7 +6,7 @@ date: 2025-05-18T12:00:00
 image: "https://slefboot-1251736664.file.myqcloud.com/20250518_marital_property.webp"
 categories: ["婚姻家庭"]
 authors: ["盛律师"]
-tags: ["婚姻关系"]
+tags: ["夫妻共同财产"]
 draft: false
 ---
 
