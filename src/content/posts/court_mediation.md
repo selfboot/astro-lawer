@@ -6,7 +6,7 @@ date: 2025-05-18T11:05:18
 image: "https://slefboot-1251736664.file.myqcloud.com/20250421_court_mediation_cover.webp"
 categories: ["法律科普"]
 authors: ["盛律师"]
-tags: ["民事诉讼", "法院调解"]
+tags: ["法院调解"]
 draft: false
 ---
 
