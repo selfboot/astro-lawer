@@ -3,7 +3,7 @@ title: 关于行政诉讼，这几个关键点能解决你 90% 的疑问，值�
 meta_title: 关于行政诉讼，这几个关键点能解决你 90% 的疑问，值得收藏的普法文章
 date: 2025-11-14T10:00:00
 description: “民告官”到底怎么告？本文由盛律师用大白话为您彻底讲透“行政诉讼”。您将了解到：什么是行政诉讼（就是老百姓告政府）；哪些事可以告（从罚款、吊销执照到征地拆迁补偿）；应该告哪个部门；必须在多久内起诉（一般是6个月！）；费用贵不贵（你绝对想不到的便宜）；以及在法庭上，你和政府机关的负责人是完全平等的。这是一篇超实用的普法长文，旨在帮你了解自己作为公民的强大法律武器，当合法权益受损时，知道如何拿起法律，勇敢说“不”。
-image: "https://slefboot-1251736664.file.myqcloud.com/20251114_administrative_litigation.webp"
+image: "https://slefboot-1251736664.file.myqcloud.com/20251114_administrative_litigation_faq.webp"
 categories: ["法律科普"]
 authors: ["盛律师"]
 tags: ["行政诉讼"]
