@@ -3,7 +3,7 @@ title: 路怒开车故意撞人，可能涉嫌 3 种罪行，普通人知道 1 �
 meta_title: 路怒故意开车撞人，可能涉嫌 3 种罪行，普通人知道 1 种就不错了
 description: 盛律师详解路怒症故意撞人的法律后果。别以为是简单的交通事故，这可是涉嫌故意伤害、以危险方法危害公共安全的大罪！这篇文，开车的人都要看。
 date: 2025-12-07T21:30:00Z
-image: ""
+image: "https://slefboot-1251736664.file.myqcloud.com/20251213_road_rage_crime.webp"
 categories: ["刑事案件"]
 authors: ["盛律师"]
 tags: ["交通安全"]
